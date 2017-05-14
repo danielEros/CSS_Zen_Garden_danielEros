@@ -1,0 +1,90 @@
+body {
+    background: url(zen.jpg) no-repeat fixed 100%;
+    color: #022547;
+    margin: 3% 12% 20% 35%;
+    font-family: 'Amaranth', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:link{
+    color: #823702;
+}
+
+a:visited {
+    color: #340159;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+p {
+    text-align: justify;
+    line-height: 150%;
+}
+
+h1 {
+    color: #d2db85;
+    font-size: 250%;
+    text-align: center;
+    position: fixed;
+    top: 53%;
+    left: 2%;
+}
+
+footer {
+    position: fixed;
+    top: 35%;
+    left: 17%;
+    text-decoration: none;
+    color: grey;
+}
+
+
+h2, h3 {
+    font-size: 160%;
+    color: #0c3d01;
+}
+
+.summary p:first-child {
+    background-color: #0c3d01;
+    color: #d2db85;
+    padding: 10px;
+    border: 3px #d2db85 solid;
+} 
+
+#zen-summary {
+    font-style: italic;
+} 
+
+#zen-preamble {
+    text-decoration: underline;
+} 
+
+#design-selection {
+
+}
+
+p::first-letter {
+    font-size: 120%;
+}
+
+.next, .viewall {
+    display: inline;
+}
+
+.participation p, .benefits p, .requirements p {
+    display: none;
+}
+
+.participation:hover p, .benefits:hover p, .requirements:hover p {
+    display: inline;
+}
+
+.preamble {
+    border: 1px solid black;
+    padding: 5px;
+}
